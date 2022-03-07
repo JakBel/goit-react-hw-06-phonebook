@@ -1,0 +1,68 @@
+.title,
+.contact,
+.contact__list,
+.list__item {
+    color: #000000;
+}
+
+.filter {
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.border {
+    width: 400px;
+    height: 190px;
+    margin-bottom: 50px;
+}
+
+.letter {
+    color: #000000;
+    font-size: 24px;
+    margin-left: -10px;
+}
+
+.name {
+    margin: 10px 0 10px -10px;
+    display: flex;
+}
+
+.name:focus,
+.tel:focus {
+    outline: none;
+    border: 3px solid #1100ff;
+}
+
+.tel {
+    margin: 10px 0 0 -10px;
+    display: flex;
+}
+
+.addBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 10px -8px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #757575;
+    box-shadow: 2px 2px 5px #757575;
+    cursor: pointer;
+    width: 90px;
+    height: 25px;
+}
+
+.addBtn:active,
+.delBtn:active {
+    background-color: #1100ff;
+}
+
+.delBtn {
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #757575;
+    box-shadow: 2px 2px 5px #757575;
+    cursor: pointer;
+}
